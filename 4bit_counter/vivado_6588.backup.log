@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu May  2 15:52:53 2024
+# Process ID: 6588
+# Current directory: D:/Aaalalm/analog/4bit_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9908 D:\Aaalalm\analog\4bit_counter\4bit_counter.xpr
+# Log file: D:/Aaalalm/analog/4bit_counter/vivado.log
+# Journal file: D:/Aaalalm/analog/4bit_counter\vivado.jou
+# Running On: EEE_07, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 4170 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Aaalalm/analog/4bit_counter/4bit_counter.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/APRAJTTP/Desktop/4bit_counter' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Aaalalm/analog/4bit_counter/4bit_counter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1278.301 ; gain = 98.887
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+****** Xilinx hw_server v2023.2
+  **** Build date : Oct 13 2023 at 21:31:40
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 10 2023-09:31:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1286.555 ; gain = 0.602
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AA69A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu May  2 15:55:40 2024] Launched impl_1...
+Run output will be captured here: D:/Aaalalm/analog/4bit_counter/4bit_counter.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+[Thu May  2 15:57:41 2024] Launched impl_1...
+Run output will be captured here: D:/Aaalalm/analog/4bit_counter/4bit_counter.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B9AA69A
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu May  2 16:00:02 2024] Launched impl_1...
+Run output will be captured here: D:/Aaalalm/analog/4bit_counter/4bit_counter.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B9AA69A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B9AA69A

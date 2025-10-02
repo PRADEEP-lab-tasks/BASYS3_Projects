@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Feb 17 20:04:12 2024
+# Process ID: 9952
+# Current directory: D:/Aaalalm/analog/4bit_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5732 D:\Aaalalm\analog\4bit_counter\4bit_counter.xpr
+# Log file: D:/Aaalalm/analog/4bit_counter/vivado.log
+# Journal file: D:/Aaalalm/analog/4bit_counter\vivado.jou
+# Running On: EEE_07, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 4170 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Aaalalm/analog/4bit_counter/4bit_counter.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/APRAJTTP/Desktop/4bit_counter' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Aaalalm/analog/4bit_counter/4bit_counter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 1265.270 ; gain = 251.816
+update_compile_order -fileset sources_1
+add_files -norecurse {D:/Aaalalm/analog/4bit_counter/4bit_counter.srcs/sources_1/new/oneHz_gen.v D:/Aaalalm/analog/4bit_counter/4bit_counter.srcs/sources_1/new/counter.v}
+WARNING: [filemgmt 56-12] File 'D:/Aaalalm/analog/4bit_counter/4bit_counter.srcs/sources_1/new/oneHz_gen.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'D:/Aaalalm/analog/4bit_counter/4bit_counter.srcs/sources_1/new/counter.v' cannot be added to the project because it already exists in the project, skipping this file
+add_files -norecurse D:/Aaalalm/analog/4bit_counter/4bit_counter.srcs/sources_1/new/oneHz_gen.v
+WARNING: [filemgmt 56-12] File 'D:/Aaalalm/analog/4bit_counter/4bit_counter.srcs/sources_1/new/oneHz_gen.v' cannot be added to the project because it already exists in the project, skipping this file
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 17 20:39:47 2024...
