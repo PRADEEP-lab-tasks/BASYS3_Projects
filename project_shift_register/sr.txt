@@ -1,0 +1,58 @@
+module shift_register (
+    input wire clk,
+    input wire reset,
+    input wire shift_in,
+    output wire [3:0] shift_out
+);
+
+    reg [3:0] register;
+
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            register <= 4'b0000;
+        end else begin
+            register <= {register[2:0], shift_in};
+        end
+    end
+
+    assign shift_out = register;
+endmodule
+
+
+module testbench;
+    reg clk;
+    reg reset;
+    reg shift_in;
+    wire [3:0] shift_out;
+
+    // Instantiate the shift register
+    shift_register u1 (
+        .clk(clk),
+        .reset(reset),
+        .shift_in(shift_in),
+        .shift_out(shift_out)
+    );
+
+    // Clock generation
+    always begin
+        #5 clk = ~clk;
+    end
+
+    // Test sequence
+    initial begin
+        // Initialize signals
+        clk = 0;
+        reset = 1;
+        shift_in = 0;
+
+        #10 reset = 0;
+        #10 shift_in = 1;
+        #10 shift_in = 0;
+        #10 shift_in = 1;
+        #10 shift_in = 1;
+        #10 shift_in = 0;
+
+        // End simulation
+        #10 $finish;
+    end
+endmodule
