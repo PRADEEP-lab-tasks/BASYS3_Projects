@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/Aaalalm/analog/project_alu/project_alu.runs/synth_1/ALU.tcl"
+  variable script "alu/project_alu.runs/synth_1/ALU.tcl"
   variable category "vivado_synth"
 }
 
