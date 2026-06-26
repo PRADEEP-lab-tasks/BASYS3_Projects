@@ -178,6 +178,6 @@ INFO: [Common 17-83] Releasing license: Synthesis
 synth_design completed successfully
 synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:01:08 . Memory (MB): peak = 1309.914 ; gain = 839.520
 Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1309.914 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/Aaalalm/analog/project_alu/project_alu.runs/synth_1/ALU.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'alu/project_alu.runs/synth_1/ALU.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ALU_utilization_synth.rpt -pb ALU_utilization_synth.pb
 INFO: [Common 17-206] Exiting Vivado at Tue May  7 17:46:02 2024...
