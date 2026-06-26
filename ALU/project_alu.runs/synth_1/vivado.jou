@@ -5,6 +5,7 @@
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
 # Start of session at: Tue May  7 17:44:11 2024
 # Process ID: 8540
+# DONE SOLEY BY PRADEEP
 # Current directory: D:/Aaalalm/analog/project_alu/project_alu.runs/synth_1
 # Command line: vivado.exe -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
 # Log file: D:/Aaalalm/analog/project_alu/project_alu.runs/synth_1/ALU.vds
