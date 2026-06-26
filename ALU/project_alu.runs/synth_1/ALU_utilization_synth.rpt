@@ -73,7 +73,6 @@ Warning! LUT value is adjusted to account for LUT combining.
 |   RAMB36/FIFO* |    0 |     0 |          0 |        50 |  0.00 |
 |   RAMB18       |    0 |     0 |          0 |       100 |  0.00 |
 +----------------+------+-------+------------+-----------+-------+
-* Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
 
 
 3. DSP
