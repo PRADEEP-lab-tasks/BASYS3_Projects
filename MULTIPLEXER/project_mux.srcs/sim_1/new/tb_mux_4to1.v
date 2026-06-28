@@ -5,7 +5,7 @@
 // Create Date: 05/07/2024 07:47:17 PM
 // Design Name: 
 // Module Name: tb_mux_4to1
-// Project Name: 
+// Project Name: Multiplexer 
 // Target Devices: 
 // Tool Versions: 
 // Description: 
