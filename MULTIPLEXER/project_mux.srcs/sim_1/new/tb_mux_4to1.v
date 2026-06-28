@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: PRADEEP
 // Create Date: 05/07/2024 07:47:17 PM
 // Design Name: 
 // Module Name: tb_mux_4to1
@@ -9,7 +9,6 @@
 // Target Devices: 
 // Tool Versions: 
 // Description: 
-// 
 // Dependencies: 
 // 
 // Revision:
