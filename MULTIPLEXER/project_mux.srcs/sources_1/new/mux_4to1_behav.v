@@ -4,7 +4,7 @@
 // Engineer: PRADEEP
 // 
 // Create Date: 05/07/2024 07:46:00 PM
-// Design Name: 
+// Design Name: Multiplexer
 // Module Name: mux_4to1_behav
 // Project Name: 
 // Target Devices: 
