@@ -31,6 +31,9 @@ module tb_mux_4to1;
         .sel(sel)
     );
 
+        $dumpfile("dump.vcd");
+    $dumpvars(0, tb_mux);
+    
     initial begin
         // Initialize inputs
         a = 1'b0;
