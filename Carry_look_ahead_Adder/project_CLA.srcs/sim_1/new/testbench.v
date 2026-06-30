@@ -1,12 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: PRADEEP
 // 
 // Create Date: 05/07/2024 07:12:19 PM
 // Design Name: 
 // Module Name: testbench
-// Project Name: 
+// Project Name: CLA_Adder
 // Target Devices: 
 // Tool Versions: 
 // Description: 
