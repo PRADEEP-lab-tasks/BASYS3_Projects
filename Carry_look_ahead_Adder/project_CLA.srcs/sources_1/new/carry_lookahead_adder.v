@@ -1,12 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: PRADEEP
 // 
 // Create Date: 05/07/2024 07:12:01 PM
 // Design Name: 
 // Module Name: carry_lookahead_adder
-// Project Name: 
+// Project Name: CLA_adder
 // Target Devices: 
 // Tool Versions: 
 // Description: 
