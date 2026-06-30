@@ -1,4 +1,4 @@
-Designed by PRADEEP with the help of AI
+//Designed by PRADEEP with the help of AI
 
 -----------------------------------------------------------------------------------------------
 module carry_lookahead_adder(input [3:0] A, B, output [3:0] SUM, output CARRY);
