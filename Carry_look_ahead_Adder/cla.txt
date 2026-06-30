@@ -1,0 +1,57 @@
+
+
+-----------------------------------------------------------------------------------------------
+module carry_lookahead_adder(input [3:0] A, B, output [3:0] SUM, output CARRY);
+    wire [3:0] G, P, C;
+    
+    // Generate and Propagate signals
+    assign G = A & B;
+    assign P = A ^ B;
+    
+    // Carry signals
+    assign C[0] = G[0];
+    assign C[1] = G[1] | (P[1] & G[0]);
+    assign C[2] = G[2] | (P[2] & G[1]) | (P[2] & P[1] & G[0]);
+    assign C[3] = G[3] | (P[3] & G[2]) | (P[3] & P[2] & G[1]) | (P[3] & P[2] & P[1] & G[0]);
+    
+    // Sum signals
+    assign SUM = P ^ C;
+    
+    // Carry out
+    assign CARRY = C[3];
+endmodule
+
+
+module testbench;
+    reg [3:0] A, B;
+    wire [3:0] SUM;
+    wire CARRY;
+
+    // Instantiate the carry_lookahead_adder
+    carry_lookahead_adder cla(A, B, SUM, CARRY);
+
+    initial begin
+        // Initialize inputs
+        A = 4'b0000;
+        B = 4'b0000;
+
+        // Apply test vectors
+        #10 A = 4'b0101; B = 4'b0011;  // Test case 1: 5 + 3
+        #10 A = 4'b1111; B = 4'b0001;  // Test case 2: 15 + 1
+        #10 A = 4'b1010; B = 4'b1010;  // Test case 3: 10 + 10
+        #10 A = 4'b0110; B = 4'b0111;  // Test case 4: 6 + 7
+    end
+
+    initial begin
+        $monitor($time, " A=%b B=%b SUM=%b CARRY=%b", A, B, SUM, CARRY);
+    end
+endmodule
+
+
+
+
+
+
+
+
+
