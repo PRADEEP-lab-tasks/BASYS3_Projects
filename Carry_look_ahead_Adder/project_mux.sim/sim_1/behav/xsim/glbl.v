@@ -1,4 +1,5 @@
 // $Header: /devl/xcs/repo/env/Databases/CAEInterfaces/verunilibs/data/glbl.v,v 1.14 2010/10/28 20:44:00 fphillip Exp $
+// this is a tool generated file
 `ifndef GLBL
 `define GLBL
 `timescale  1 ps / 1 ps
