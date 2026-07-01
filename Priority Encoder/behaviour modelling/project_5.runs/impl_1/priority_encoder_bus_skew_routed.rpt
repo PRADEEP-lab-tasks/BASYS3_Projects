@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Mon Dec 18 18:10:43 2023
+| Host         : EEE_07 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file priority_encoder_bus_skew_routed.rpt -pb priority_encoder_bus_skew_routed.pb -rpx priority_encoder_bus_skew_routed.rpx
+| Design       : priority_encoder
+| Device       : 7k70t-fbv676
+| Speed File   : -1  PRODUCTION 1.12 2017-02-17
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
