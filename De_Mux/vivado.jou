@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Dec 18 18:37:30 2023
+# Process ID: 4848
+# Current directory: E:/VIVADO PROJECTs/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5876 E:\VIVADO PROJECTs\project_1\project_1.xpr
+# Log file: E:/VIVADO PROJECTs/project_1/vivado.log
+# Journal file: E:/VIVADO PROJECTs/project_1\vivado.jou
+# Running On: EEE_07, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 4170 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/VIVADO PROJECTs/project_1/project_1.xpr}
+
+open_project {E:/VIVADO PROJECTs/project_2/project_2.xpr}
+update_compile_order -fileset sources_1
