@@ -2,7 +2,7 @@
 | Tool Version : Vivado v.2023.2
 | Date         : Mon Dec 18 11:53:47 2023
 | Host         : EEE_07
-| Design       : checkpoint_demux_1_to_4
+| Design       : demux_1_to_4
 | Device       : xc7a35t-cpg236-1--
 -------------------------------------
 
