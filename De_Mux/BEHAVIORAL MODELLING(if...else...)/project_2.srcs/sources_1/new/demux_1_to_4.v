@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: PRADEEP L
 // 
 // Create Date: 12/18/2023 02:55:17 PM
-// Design Name: 
+// Design Name: DEMULTIPLEXER
 // Module Name: demux_1_to_4
 // Project Name: 
-// Target Devices: 
+// Target Devices: BASYS 3
 // Tool Versions: 
 // Description: 
 // 
