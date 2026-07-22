@@ -4,7 +4,7 @@
 // Engineer: PRADEEP
 // 
 // Create Date: 05/07/2024 07:12:19 PM
-// Design Name: 
+// Design Name: Carry Lookahead Adder
 // Module Name: testbench
 // Project Name: CLA_Adder
 // Target Devices: 
