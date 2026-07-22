@@ -1,4 +1,4 @@
-
+#java scri[t
 // GLOBAL VARIABLES
 var ISEShell = new ActiveXObject( "WScript.Shell" );
 var ISEFileSys = new ActiveXObject( "Scripting.FileSystemObject" );
