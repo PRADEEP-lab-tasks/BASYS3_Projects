@@ -3,7 +3,7 @@ namespace eval ::optrace {
   variable category "vivado_impl"
 }
 
-# Try to connect to running dispatch if we haven't done so already.
+
 # This code assumes that the Tcl interpreter is not using threads,
 # since the ::dispatch::connected variable isn't mutex protected.
 if {![info exists ::dispatch::connected]} {
