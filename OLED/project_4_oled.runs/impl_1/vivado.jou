@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Aug 12 22:57:40 2025
+# Process ID: 21028
+# Current directory: D:/New folder/vivado_proj/project_4_oled/project_4_oled.runs/impl_1
+# Command line: vivado.exe -log top_basys3_oled_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_basys3_oled_adder.tcl -notrace
+# Log file: D:/New folder/vivado_proj/project_4_oled/project_4_oled.runs/impl_1/top_basys3_oled_adder.vdi
+# Journal file: D:/New folder/vivado_proj/project_4_oled/project_4_oled.runs/impl_1\vivado.jou
+# Running On        :LAPTOP-Q9Q9D4I3
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 5 7535HS with Radeon Graphics        
+# CPU Frequency     :3294 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :7739 MB
+# Swap memory       :9126 MB
+# Total Virtual     :16866 MB
+# Available Virtual :1423 MB
+#-----------------------------------------------------------
+source top_basys3_oled_adder.tcl -notrace
