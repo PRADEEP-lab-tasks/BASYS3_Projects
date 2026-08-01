@@ -9,6 +9,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports spi_cs]
 set_property IOSTANDARD LVCMOS33 [get_ports oled_dc]
 set_property IOSTANDARD LVCMOS33 [get_ports oled_res]
 
+
 set_property IOSTANDARD LVCMOS33 [get_ports clk]
 set_property IOSTANDARD LVCMOS33 [get_ports rst]
 set_property PACKAGE_PIN U14 [get_ports rst]
