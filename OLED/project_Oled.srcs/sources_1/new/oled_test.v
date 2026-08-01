@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: PRADEEP
 // 
 // Create Date: 27.07.2025 21:33:22
 // Design Name: 
@@ -10,9 +10,7 @@
 // Target Devices: 
 // Tool Versions: 
 // Description: 
-// 
-// Dependencies: 
-// 
+
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
