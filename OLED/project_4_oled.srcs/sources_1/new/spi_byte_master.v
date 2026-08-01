@@ -4,6 +4,8 @@
 // SPI byte master, Mode 0, active-low CS. One-byte transactions.
 // ce should be a 1-cycle enable at desired SCLK/2 rate.
 // ------------------------------------------------------------
+
+
 module spi_byte_master #(
     parameter CPOL = 0,
     parameter CPHA = 0
