@@ -6,7 +6,7 @@
 // Create Date: 27.07.2025 21:33:22
 // Design Name: oled
 // Module Name: oled_test
-// Project Name: 
+// Project Name: OLED DISPLY
 // Target Devices: 
 // Tool Versions: 
 // Description: 
