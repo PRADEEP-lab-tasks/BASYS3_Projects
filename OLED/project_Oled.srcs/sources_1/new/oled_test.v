@@ -4,7 +4,7 @@
 // Engineer: PRADEEP
 // 
 // Create Date: 27.07.2025 21:33:22
-// Design Name: 
+// Design Name: oled
 // Module Name: oled_test
 // Project Name: 
 // Target Devices: 
