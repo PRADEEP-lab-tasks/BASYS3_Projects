@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Product Version: Vivado v2024.1 (64-bit)                              -->
 <!--                                                                         -->
-<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
-<!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
+
 
 <Project Product="Vivado" Version="7" Minor="67" Path="D:/New folder/vivado_proj/project_2/project_2.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
