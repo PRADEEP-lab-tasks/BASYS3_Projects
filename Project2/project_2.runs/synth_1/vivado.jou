@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Jul  4 13:40:50 2025
+# Process ID: 17596
+# Current directory: D:/New folder/vivado_proj/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log up_counter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source up_counter.tcl
+# Log file: D:/New folder/vivado_proj/project_2/project_2.runs/synth_1/up_counter.vds
+# Journal file: D:/New folder/vivado_proj/project_2/project_2.runs/synth_1\vivado.jou
+# Running On        :LAPTOP-Q9Q9D4I3
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 7535HS with Radeon Graphics        
+# CPU Frequency     :3294 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :7739 MB
+# Swap memory       :8321 MB
+# Total Virtual     :16061 MB
+# Available Virtual :4260 MB
+#-----------------------------------------------------------
+source up_counter.tcl -notrace
