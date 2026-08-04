@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <document>
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
-The structure and the elements are likely to change over the next few releases.
-This means code written to parse this file will need to be revisited each subsequent release.-->
+The structure and the elements are likely to change over the next few releases.-->
 <application name="pa" timeStamp="Fri Jul  4 13:40:46 2025">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="2b3c2892a62347f58d4c97ce1a8df506" type="ProjectID"/>
