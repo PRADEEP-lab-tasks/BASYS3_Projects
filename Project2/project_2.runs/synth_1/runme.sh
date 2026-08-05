@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 
-# Vivado(TM)
+# Vivado
 # runme.sh: a Vivado-generated Runs Script for UNIX
 
 
