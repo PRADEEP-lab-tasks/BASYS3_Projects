@@ -1,7 +1,7 @@
 //
 //  Vivado(TM)
 //  ISEWrap.js: Vivado Runs Script for WSH 5.1/5.6
-//  Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. 
+
 
 //
 
