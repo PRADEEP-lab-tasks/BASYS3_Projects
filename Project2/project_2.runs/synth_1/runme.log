@@ -8,8 +8,7 @@
  
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
   **** Start of session at: Fri Jul  4 13:40:50 2025
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
 
 source up_counter.tcl -notrace
 create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 501.020 ; gain = 200.852
