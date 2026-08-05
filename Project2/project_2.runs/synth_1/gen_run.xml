@@ -13,6 +13,7 @@
     <Filter Type="Srcs"/>
     <File Path="H:/Android/up_counter.v">
       <FileInfo>
+        
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
