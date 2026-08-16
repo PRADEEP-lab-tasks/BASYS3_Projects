@@ -14,8 +14,6 @@ It covers initialization, data transfer, and rendering simple graphics/text on t
 
 
 
-
-
 ## ⚙️ Features
 - OLED initialization sequence for SSD1306 controller
 - Pixel/character rendering
