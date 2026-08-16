@@ -1,3 +1,6 @@
+## Created by Pradeep with the help of AI
+
+
 // oled_ssd1306.v
 // Drives a Digilent Pmod OLED (128x32, SSD1306 controller) over its
 // 4-wire SPI-like interface and displays five decimal digits (00000-65535).
