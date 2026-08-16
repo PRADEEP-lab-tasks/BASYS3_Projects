@@ -11,3 +11,20 @@ It covers initialization, data transfer, and rendering simple graphics/text on t
 - USB cable for programming
 
 ## 📂 Project Structure
+
+
+
+
+
+## ⚙️ Features
+- OLED initialization sequence for SSD1306 controller
+- Pixel/character rendering
+- Frame buffer handling
+- Testbench for simulation
+- XDC constraints for Basys3 pin mapping
+
+## 🚀 Getting Started
+### 1. Clone the Repository
+```bash
+git clone https://github.com/<your-repo>/BASYS3_Projects.git
+cd BASYS3_Projects/OLED/Updated
