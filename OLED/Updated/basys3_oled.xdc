@@ -44,3 +44,5 @@ set_property PACKAGE_PIN A17 [get_ports oled_res]
 set_property PACKAGE_PIN C15 [get_ports oled_vbat]
 set_property PACKAGE_PIN C16 [get_ports oled_vdd]
 set_property IOSTANDARD LVCMOS33 [get_ports {oled_cs oled_sdin oled_sclk oled_dc oled_res oled_vbat oled_vdd}]
+
+
