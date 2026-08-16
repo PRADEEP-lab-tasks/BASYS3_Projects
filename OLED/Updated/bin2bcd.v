@@ -1,4 +1,4 @@
-## Created by Pradeep with the help of AI
+// Created by Pradeep with the help of AI
 
 // bin2bcd.v
 // Converts a 16-bit unsigned binary value into 5 BCD digits (0-65535)
